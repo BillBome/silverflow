@@ -1,0 +1,355 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top left, #2891b4, #6fc9d5);
+}
+
+.table_layout1 {
+    width: 1550px;
+    min-height: 300px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+}
+
+.table_layout2{
+    width: 450px;
+    height: 230px;
+    display: flex;
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    margin: 10px 20px 50px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    transition: width 0s, height 0s, box-shadow 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.table_layout2:hover{
+    width: 451px;
+    height: 231px;
+    box-shadow: 10px 10px 10px rgba(35, 32, 30, 0.203);
+}
+
+#table_layout3{
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    margin: 0px 0px 30px 0px;
+}
+
+#table_layout4{
+    min-width: 400px;
+    height: 450px;
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    margin: 0px 0px 20px 130px;
+}
+
+#table_layout5{
+    min-width: 400px;
+    height: 300px;
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    margin: 1px 0px 20px 180px;
+}
+
+#table_layout6{
+    min-width: 500px;
+    min-height: 370px;
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    margin: auto
+}
+
+#form{
+    margin: auto;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 10px 15px 5px;
+}
+
+.heading1 {
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 0px 0px 0px 50px;
+    font-family: "Ibarra Real Nova";
+    font-variant: small-caps;
+    color: #2891b4;
+    transition: color 0s;
+    transition-timing-function: step-start;
+}
+
+.heading1:hover{
+    color: #16d7ee;
+}
+
+#register{
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 0px 100px 0px 0px;
+    font-family: "Ibarra Real Nova";
+    font-variant: small-caps;
+    color: #2891b4;
+    transition: color 0s;
+    transition-timing-function: ease-in-out;
+}
+
+#register:hover{
+    color: #16d7ee;
+}
+
+.heading2 {
+    font-weight: bold;
+    font-size: 25pt;
+    font-family: "Abril Fatface";
+    color: #2891b4;
+}
+
+.heading3{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#banner{
+    width: 1550px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+        
+.item_text{
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: sans-serif;
+    color: #deeff4;
+}
+
+.item_text2{
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: sans-serif;
+    color: #2891b4;
+}
+
+.item_text3{
+    font-weight: bold;
+    font-size: 27px;
+    font-family: 'PT Serif';
+    color: #070971;
+}
+
+.item_pic{
+    width: 305px;
+    height: 405px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: width 0s height 0s box-shadow 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.item_pic:hover{
+    width: 310px;
+    height: 410px;
+    box-shadow: 7px 7px 7px rgba(35, 32, 30, 0.203);
+}
+
+.more_item_pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 0px 10px 15px 0px;
+    border: 3px groove grey;
+    transition: width 0s height 0s box-shadow 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.more_item_pic:hover{
+    width: 73px;
+    height: 73px;
+    box-shadow: 4px 4px 4px rgba(35, 32, 30, 0.203);
+}
+
+.text{
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: sans-serif;
+    color: #deeff4;
+    margin-left: 11px;
+}
+
+.text2{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'PT Serif';
+    color: #070971;
+}
+
+#exp_date{
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: sans-serif;
+    color: #deeff4;
+    margin-left: 148px;
+}
+
+.item_info_text1{
+    color: #deeff4;
+    margin-right: 15px;
+}
+
+.item_info_text2{
+    color: #deeff4;
+    margin-left: 5px;
+}
+
+.footing {
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: "Cormorant SC";
+    color: #2891b4;
+    font-variant: small-caps;
+}
+
+.footing_image {
+    width: 20px;
+    height: 20px;
+}
+
+#category1{
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: "Abril Fatface";
+    color: #FFFFFF;
+    margin: 0px 70px 0px 10px;
+}
+
+.category2{
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: "Abril Fatface";
+    color: #FFFFFF;
+    margin: 0px 70px 0px 10px;
+    transition: color 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.category2:hover{
+    color: cyan;
+}
+
+.text_box1{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0px 5px 10px 10px;
+}
+
+.text_box2{
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 20px 10px 10px;
+}
+
+#securityCode{
+    width: 237px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 50px 30px 10px;
+}
+
+#expDate{
+    width: 238px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 10px 30px 10px;
+}
+
+#text_box5{
+    width: 250px;
+    height: 23px;
+    border-radius: 10px;
+    margin: 5px 5px 5px 300px;
+}
+
+.button1 {
+    width: 200px;
+    height: 70px;
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px 15px 60px 178px;
+}
+
+.button1:hover{
+    background: linear-gradient(to bottom right, #45c1ea, #66cdf0);
+    box-shadow: 7px 7px 7px rgba(35, 32, 30, 0.203);
+}
+
+#button2{
+    width: 100px;
+    height: 23px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    border: 3px groove grey;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 5px 5px 10px;
+}
+
+#button2:hover{
+    background-color: #cad0d1;
+    box-shadow: 6px 6px 6px rgba(35, 32, 30, 0.203);
+}
+
+.button3 {
+    width: 180px;
+    height: 60px;
+    background: linear-gradient(to top left, #45c1ea, #66cdf0);
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px 60px 20px 5px;
+}
+
+.button3:hover{
+    background: linear-gradient(to bottom right, #45c1ea, #66cdf0);
+    box-shadow: 7px 7px 7px rgba(35, 32, 30, 0.203);
+}
+
+.button4{
+    width: 170px;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(35, 32, 30, 0.203);
+    border: 3px groove grey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 7px 10px 10px 0px;
+}
+
+.button4:hover{
+    background-color: #cad0d1;
+    box-shadow: 6px 6px 6px rgba(35, 32, 30, 0.203);
+}
+
+a:link{
+    text-decoration: none;
+}
